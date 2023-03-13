@@ -1,0 +1,5 @@
+default-target = "wasm32-unknown-unknown"
+prepend-js = "src/runtime.js"
+
+[cargo-web]
+minimum-version = "0.6.0"

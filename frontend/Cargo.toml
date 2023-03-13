@@ -1,0 +1,16 @@
+[package]
+name = "frontend"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+console_log = "1.0.0"
+log = "0.4.17"
+serde = { version = "1.0.155", features = ["serde_derive"] }
+serde_json = "1.0.94"
+wasm-bindgen = { version = "0.2.84", features = ["serde_json", "serde", "serde-serialize"] }
+wasm-bindgen-futures = "0.4.34"
+fluid={path="/home/nishan/fluid/fluid"}
+fluid-macro={path="/home/nishan/fluid/fluid-macro"}
